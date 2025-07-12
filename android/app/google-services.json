@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "660097225697",
+    "project_id": "zapway-mobile",
+    "storage_bucket": "zapway-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660097225697:android:878841a0e2656959f3f8a0",
+        "android_client_info": {
+          "package_name": "com.example.zapway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660097225697-5atvmt5bcgsu3ep68b8f1kfpk2tf1h1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjTqpj1ukV1Z5AY9_KO01SA55nm2Bo96o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660097225697-5atvmt5bcgsu3ep68b8f1kfpk2tf1h1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
