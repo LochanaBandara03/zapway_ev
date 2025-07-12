@@ -6,6 +6,7 @@ import 'package:zapway/pages/signin.dart';
 import 'package:zapway/pages/signup.dart';
 import 'package:zapway/pages/search.dart';
 import 'package:zapway/pages/profile.dart';
+import 'package:zapway/pages/add.dart';
 
 Future<void> initializeFirebase() async {
   await Firebase.initializeApp();
@@ -32,11 +33,12 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const HomePage(),
+        '/': (context) => const SearchPage(), // Set SearchPage as the home page
         '/signin': (context) => const SignInPage(),
         '/signup': (context) => const SignUpPage(),
-        '/search': (context) => const SearchPage(),
+        '/home': (context) => const HomePage(),
         '/profile': (context) => const ProfilePage(),
+        '/add': (context) => const AddStationPage(),
       },
     );
   }
